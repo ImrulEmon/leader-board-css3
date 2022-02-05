@@ -76,6 +76,7 @@ hr{
     padding-left: 5%;
     padding-top: 2%;
     border-radius: 10px;
+    padding-right: 3%;
 }
 .blog .thumbnil img{
     width: 177px;
@@ -124,6 +125,7 @@ hr{
     align-items: center;
     justify-content: space-between;
     padding-left: 5%;
+    
    
 }
 .course-author{
@@ -146,4 +148,35 @@ hr{
     border-radius: 14.6913px;
     align-items: center;
     flex-direction: row;
+    
+}
+
+/* ------------------
+    Media Quaries
+------------------- */
+/* mobile devices */
+@media only screen and (max-width:688px) {
+    .section-title{
+        text-align: center;
+    }
+    .container{
+        width: 100%;
+    }
+    .players{
+        justify-items: center;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
+        width: 80%;
+        padding: 5%;
+        border-radius: 10px;
+        justify-content: center;
+    }
+    .blogs, .courses{
+        display: none;
+    }
 }
