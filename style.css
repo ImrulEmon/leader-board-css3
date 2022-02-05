@@ -17,6 +17,7 @@ main{
 }
 hr{
     border: 1px solid #D1D1D1;
+    margin-bottom: 27px;
 }
 /* Top player style */
 .top-players{
@@ -49,6 +50,13 @@ hr{
     font-size: 18px;
 }
 /* Top Blogs Style */
+.blogs{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-row-gap: 26px; */
+    row-gap: 26px;
+}
 .blog{
     display: flex;
 }
