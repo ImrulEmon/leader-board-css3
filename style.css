@@ -162,7 +162,7 @@ hr{
     .container{
         width: 100%;
     }
-    .players{
+    .players, .blogs, .courses{
         justify-items: center;
         grid-template-columns: repeat(1, 1fr);
     }
@@ -176,7 +176,45 @@ hr{
         border-radius: 10px;
         justify-content: center;
     }
-    .blogs, .courses{
-        display: none;
+    .blog{
+        flex-direction: column;
+        margin-right: 2%;
+    }
+    .course{
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    
+}
+
+/* Tablet Devices*/
+@media only screen and (min-width: 688px) and (max-width : 992px) {
+    .container{
+        width: 100%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .section-title{
+        text-align: center;
+    }
+    
+    .players, .blogs, .courses{
+        justify-items: center;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .player{
+        justify-content: center;
+    }
+    .blog{
+        width: 85%;
+        flex-direction: column;
+        padding-top: 5%;
+        padding-right: 5%;
+        margin-right: 2%;
+        margin-left: 3%;
+        text-align: center;
+    }
+    .course{
+        margin-top: 5%;
     }
 }
