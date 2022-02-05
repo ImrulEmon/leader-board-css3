@@ -17,6 +17,7 @@ main{
     padding: 30px;
     border-radius: 5px;
     margin-top: 21px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 
 }
 hr{
@@ -44,6 +45,10 @@ hr{
 .player{
     display: flex;
     align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: 80%;
+    padding: 5%;
+    border-radius: 10px;
 }
 .player img{
     width: 56px;
@@ -63,6 +68,14 @@ hr{
 }
 .blog{
     display: flex;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    /* padding: 2%; */
+    padding-left: 5%;
+    padding-top: 2%;
+    border-radius: 10px;
 }
 .blog .thumbnil img{
     width: 177px;
@@ -89,24 +102,28 @@ hr{
     grid-template-columns: repeat(3, 1fr);
     column-gap: 24px;
     text-align: center;
+    border-radius: 15px;
     
    
 }
 .course{
     width:252.42px;
     height: 300px;
-    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
-    width: fit-content;
+    padding: 5% 5% 5% 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    /* width: fit-content; */
+    border-radius: 10px;
 }
 .course .course-banner img{
     width: 224px;
     height: 104px;
-    padding: 0 10%
+    padding-left: 5%;
 }
 .course-info{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-left: 5%;
    
 }
 .course-author{
