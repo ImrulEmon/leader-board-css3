@@ -182,6 +182,15 @@ hr{
     flex-direction: row;
     
 }
+footer{
+   background: #1A1E25;
+   color: #868c96;
+   border-radius: 5px;
+}
+footer p{
+    padding: 40px 0;
+    text-align: center;
+}
 
 /* ------------------
     Media Quaries
@@ -249,4 +258,5 @@ hr{
     .course{
         margin-top: 5%;
     }
+
 }
