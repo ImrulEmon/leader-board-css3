@@ -4,6 +4,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    overflow-x: hidden;
 }
 /* Nav bar start */
 .navbar{
